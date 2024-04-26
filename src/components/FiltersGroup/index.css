@@ -1,0 +1,44 @@
+.filters-group-container{
+    width: 30%;
+    margin-right: 30px;
+}
+.symbol-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.all{
+    margin-top: 0;
+}
+.options{
+    display: none;
+}
+.label{
+    font-size: 15px;
+}
+label{
+    font-size: 10px;
+    font-weight: 500;
+}
+.button{
+    border: 0;
+    background-color: transparent;
+}
+.filter-line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .filters-group-container{
+        width: 30%;
+    }
+    .label{
+        font-size: 18px;
+    }
+    label{
+        font-size: 15px;
+    }
+    
+}
