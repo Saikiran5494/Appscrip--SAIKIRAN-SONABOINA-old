@@ -5,6 +5,10 @@
     border: 1px solid black;
     margin-bottom: 20px;
 }
+.heart-button{
+    border: 0;
+    background-color: transparent;
+}
 .product-image{
     width: 110px;
     height: 120px;
